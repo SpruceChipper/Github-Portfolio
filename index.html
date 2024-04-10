@@ -35,10 +35,56 @@
                         </div>
                         <div class="about-col-2">
                             <h1 class="sub-title">About Me</h1>
-                            <p>List Section</p>
+                            <p>Hi, I'm currently a junior majoring in CMDA at Virginia Tech with a minor in CS and Mathematics. </p>
+
+                            <div class="tab-titles"> 
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <!---------skills-->
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                                    <li><span>Game Development</span><br>Working on projects with a team in Unity, building in C#</li>
+                                    <li><span>Balls</span><br>Designing Web/App Interfaces</li>
+                                </ul>
+                            </div>
+                            <!---------Experience-->
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                                    <li><span>Game Development</span><br>Working on projects with a team in Unity, building in C#</li>
+                                    <li><span>Balls</span><br>Designing Web/App Interfaces</li>
+                                </ul>
+                            </div>
+                            <!---------Educations-->
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                                    <li><span>Game Development</span><br>Working on projects with a team in Unity, building in C#</li>
+                                    <li><span>Balls</span><br>Designing Web/App Interfaces</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-links");
+                function opentab(tabname)
+                {
+                    for (tablink of tablinks)
+                    {
+                        tablink.classList.remove("active-link");
+                    }
+                    for (tabcontent of tabcontents)
+                    {
+                        tablink.classList.remove("active-tab");
+                    }
+                }
+            </script>
         </body>
 </html>
