@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9c7e0beb10.js" crossorigin="anonymous"></script>
     </head>
         <body>
             <div id = "header">
@@ -31,7 +32,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="about-col-1">
-                            <img src="images/IMG_4489.png">
+                            <img src="images/IMG_4487.jpg">
                         </div>
                         <div class="about-col-2">
                             <h1 class="sub-title">About Me</h1>
@@ -54,15 +55,15 @@
                             <div class="tab-contents" id="experience">
                                 <ul>
                                     <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
-                                    <li><span>Game Development</span><br>Working on projects with a team in Unity, building in C#</li>
-                                    <li><span>Balls</span><br>Designing Web/App Interfaces</li>
+                                    <li><span>Game Development</span><br>Working DOOOOT DOOOOT  team in Unity, building in C#</li>
+                                    <li><span>Balls</span><br>Designing Web/App DOOT DOOOT  Interfaces</li>
                                 </ul>
                             </div>
                             <!---------Educations-->
                             <div class="tab-contents" id="education">
                                 <ul>
                                     <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
-                                    <li><span>Game Development</span><br>Working on projects with a team in Unity, building in C#</li>
+                                    <li><span>Game Development</span><br>Working on DOOT :3 with a team in Unity, building in C#</li>
                                     <li><span>Balls</span><br>Designing Web/App Interfaces</li>
                                 </ul>
                             </div>
@@ -70,10 +71,37 @@
                     </div>
                 </div>
             </div>
+            <!---------services--->
+            <div id="services">
+                <div id="container">
+                    <h1 class="sub-title">My Services</h1>
+                    <div class = "services-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Web Design</h2>
+                            <p>A bunch of words a description of services</p>
+                            <a href="#">llearn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-gamepad"></i>
+                            <h2>Game Design</h2>
+                            <p>A bunch of words a description of services</p>
+                            <a href="#">llearn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-github"></i>
+                            <h2>Data Science</h2>
+                            <p>A bunch of words a description of services</p>
+                            <a href="#">llearn more</a>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
 
             <script>
                 var tablinks = document.getElementsByClassName("tab-links");
-                var tabcontents = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
                 function opentab(tabname)
                 {
                     for (tablink of tablinks)
@@ -82,8 +110,10 @@
                     }
                     for (tabcontent of tabcontents)
                     {
-                        tablink.classList.remove("active-tab");
+                        tabcontent.classList.remove("active-tab");
                     }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab"); 
                 }
             </script>
         </body>
