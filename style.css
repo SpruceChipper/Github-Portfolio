@@ -145,6 +145,10 @@ nav ul li a:hover::after{
 }
 
 /*------services----*/
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
 #services {
     padding: 30px 0;
 }
@@ -156,7 +160,7 @@ nav ul li a:hover::after{
 }
 
 .services-list div {
-    background: #262626;
+    background: #080808;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
