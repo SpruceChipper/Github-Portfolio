@@ -92,6 +92,7 @@ nav ul li a:hover::after{
 }
 .about-col-2 {
     flex-basis: 60%;
+    font-size: large;
 }
 
 .sub-title{
@@ -181,6 +182,9 @@ nav ul li a:hover::after{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
+}
+.services-list div p {
+    font-size: 16px;
 }
 
 .services-list div a {
@@ -412,4 +416,9 @@ nav .fa-solid {
     .contact-left, .contact-right {
         flex-basis: 100%;
     }
+}
+#msg {
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
 }
