@@ -5,14 +5,14 @@ Welcome to my portfolio repository! This project showcases my work, skills, and 
 
 ---
 
-## 🌐 Portfolio
+## Portfolio
 
 Check out the live site here:  
-👉 [https://sprucechipper.github.io/Github-Portfolio/]
+ [https://sprucechipper.github.io/Github-Portfolio/]
 
 ---
 
-## 📌 Overview
+## Overview
 
 This portfolio website highlights:
 
@@ -23,7 +23,7 @@ This portfolio website highlights:
 
 ---
 
-## 🧠 About Me
+## About Me
 
 I’m a Data Analyst and Computer Scientist with a focus on:
 
@@ -34,7 +34,7 @@ I’m a Data Analyst and Computer Scientist with a focus on:
 
 ---
 
-## 🛠️ Services
+## Services
 
 Some of the services I offer include:
 
@@ -46,7 +46,7 @@ Some of the services I offer include:
 
 ---
 
-## 📂 Featured Projects
+## Featured Projects
 
 Here are a few highlighted projects from this portfolio:
 
@@ -67,7 +67,7 @@ Here are a few highlighted projects from this portfolio:
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Languages:** R, C, Java, Python, SQL, C++, C#, HTML, CSS, MATLAB  
 - **Frameworks & Libraries:** Pandas, NumPy, TidyVerse, OpenMP  
@@ -76,7 +76,7 @@ Here are a few highlighted projects from this portfolio:
 
 ---
 
-## 📬 Contact
+## Contact
 
 Feel free to reach out for collaboration, freelance work, or just to connect!
 
